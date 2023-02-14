@@ -1,0 +1,18 @@
+.track__title {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.track__artist {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+@media (max-width: 560px) {
+    .track__title {
+        font-size: 14px;
+        margin-bottom: 4spx;
+}
+    .track__artist {
+    font-size: 12px;
+    }
+}
